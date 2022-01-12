@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8818089a2afa52241a81a65cd68ae800, type: 3}
+  m_Name: ShapesCollection
+  m_EditorClassIdentifier: 
+  verticalLine: {fileID: 11400000, guid: e3166b5e90e2997449e4f01175be1dba, type: 2}
+  horizontalLine: {fileID: 11400000, guid: 6027fceb076fc864087c613987971101, type: 2}
+  triangle: {fileID: 11400000, guid: c9ae602af463d8e4192dd4c4999e9bf5, type: 2}
+  square: {fileID: 11400000, guid: c2c7b1eeea0b9db4ea1235f2b1db412c, type: 2}
+  pentagon: {fileID: 11400000, guid: 9059aa0b2a4bd364e972011b73358ae1, type: 2}
+  hexagon: {fileID: 11400000, guid: 66b0043863efbfd4ea800a262b1b405b, type: 2}
+  heptagon: {fileID: 11400000, guid: 9f3153912fe3ce64fbb333cfe2debc68, type: 2}
+  octagon: {fileID: 11400000, guid: 042cd653628e11543926692ee3366071, type: 2}
+  circle: {fileID: 11400000, guid: 0b9e4e8eeef5fd84ea29403f9a419592, type: 2}
