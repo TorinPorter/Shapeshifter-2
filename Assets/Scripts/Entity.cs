@@ -20,6 +20,8 @@ namespace Frontfire.Shapeshifter2
             }
         }
 
-
+        [SerializeField]
+        private float _moveSpeed;
+        public float MoveSpeed { get { return _moveSpeed; } set { _moveSpeed = value; } }
     }
 }
