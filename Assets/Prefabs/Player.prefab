@@ -204,6 +204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 10
+  projectile: {fileID: 7030590844599104392, guid: 5f8946012b5e3974da62fd62946a58ef, type: 3}
+  shootCooldown: 0.5
 --- !u!114 &-6075475365296380327
 MonoBehaviour:
   m_ObjectHideFlags: 0
