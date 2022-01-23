@@ -10,5 +10,16 @@ namespace Frontfire.Shapeshifter2
         {
             Velocity = transform.up * moveSpeed;
         }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if ((collision.CompareTag("Obstacle")
+                || collision.CompareTag("PlayerProjectile")
+                || collision.CompareTag("EnemyProjectile"))
+                && !collision.CompareTag(tag))
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }

@@ -35,5 +35,14 @@ namespace Frontfire.Shapeshifter2
         {
             return (playerTransform.position - this.transform.position).magnitude;
         }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("PlayerProjectile"))
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+            }
+        }
     }
 }

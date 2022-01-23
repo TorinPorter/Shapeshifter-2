@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1122602610623758842}
   - component: {fileID: 5866267285821883251}
   - component: {fileID: 3285401251124624223}
+  - component: {fileID: 3177479941416258452}
+  - component: {fileID: 3322522490027870298}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -98,6 +100,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 5
-  projectile: {fileID: 7030590844599104392, guid: 5f8946012b5e3974da62fd62946a58ef, type: 3}
+  projectile: {fileID: 7030590844599104392, guid: 915fc1ddf1cabd94a8d64dd4edd1188a, type: 3}
   shootCooldown: 0.5
   shootingDistance: 3
+--- !u!50 &3177479941416258452
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352407708896145960}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &3322522490027870298
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352407708896145960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
